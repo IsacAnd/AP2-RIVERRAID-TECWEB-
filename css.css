@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.barreira {
+    background-color: black;
+    background-image: url("deserto1.gif");
+}
+
+.chao {
+    background-color: aquamarine;
+    background-image: url("water_32.gif");
+}
+
+.combustivel {
+    background-color: yellow;
+}
+
+.moeda {
+    background-color: red;
+}
+
+.area {
+    height: 1000px;
+    width: 1000px;
+}
+
+.progresso {
+    position: relative;
+    width: 400px;
+    height: 30px;
+    background-color: grey;
+    transform: translate(-170px, 5px);
+    border-radius: 5px;
+}
+
+.porcentagemProgresso {
+    position: absolute;
+    height: 100%;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.contador {
+    height: 60px;
+    width: 60px;
+    background-color: antiquewhite;
+    position: absolute;
+    transform: translate(-250px, -25px);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+}
+
+.telaGameOver{
+    background-color:beige;
+    position: absolute;
+    height: 720px;
+    width: 920px;  
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
